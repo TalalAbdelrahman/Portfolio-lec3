@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(32,34,47);
+    font-family: 'Poppins', sans-serif;
+}
+
+.home{
+    color: white;
+}
+
+header{
+    display: inline-block;
+    position: relative;
+    bottom: -17px;
+    left: 7%;
+}
+
+span{
+    color: #77ECFC;
+}
+
+.nav ul {
+    background-color: black;
+    display: flex;
+    position: relative;
+    left: 58%;
+    bottom: 21px;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;  
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav ul li a:hover{
+    color: #77ECFC;
+}
+
+.top-text{
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: 220px;
+    letter-spacing: 2px;
+    margin-bottom: 1px;
+    font-size: 22px;
+}
+
+.center-text{
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: 220px;
+    font-size: 22px;
+}
+
+.bottom-text{
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: 220px;
+    font-size: 18px;
+}
+
+.icons a{
+    display: inline-flex;
+    position: relative;
+    left: 7%;
+    top: 220px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 30px 15px 30px 0px;
+    color: #77ecfc;
+    border: 2px solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a:hover{
+    color: white;
+}
+.cv-dl{
+    display: inline-block;
+    position: relative;
+    top: 215px;
+    left: 7%;
+    text-decoration: none;
+    background-color: #77ECFC;
+    padding: 12px;
+    border-radius: 40px;
+    color: #1b1b1b;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cv-dl:hover{
+    box-shadow: 0 0 10px rgb(119, 236, 252);
+}
+
+img{
+    max-width: 30%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    bottom: 45px;
+    padding: 0px;
+    margin:  0px;
+    z-index: -1;
+}
+
+img:hover{
+    box-shadow: 0 0 25px #77ECFC;
+
+}
