@@ -113,8 +113,8 @@ span{
 }
 
 img{
-    max-width: 30%;
+    width: 30%;
     position: relative;
-    left: 900px;
+    left: 57%;
     bottom: 215px;
 }
