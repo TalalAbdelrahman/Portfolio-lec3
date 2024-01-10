@@ -11,6 +11,8 @@ body{
 
 .home{
     color: white;
+    height: 100vh;
+    width: fit-content;
 }
 
 header{
@@ -27,7 +29,7 @@ span{
 .nav ul {
     display: flex;
     position: relative;
-    left: 52%;
+    left: 130%;
     bottom: 25px;
     justify-content: space-between;
     list-style: none;
@@ -114,7 +116,8 @@ span{
 
 img{
     width: 30%;
-    position: relative;
+    position: absolute;
     left: 57%;
-    bottom: 215px;
+    bottom: 20px;
+    padding-bottom: 0%;
 }
